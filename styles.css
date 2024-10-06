@@ -1,0 +1,67 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Box Container Styling */
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Small Box Styling */
+.small-box {
+    background-color: #3498db;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.small-box a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Large Box Styling */
+.large-box {
+    background-color: #f1c40f;
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.large-box p {
+    font-size: 18px;
+    color: #333;
+}
