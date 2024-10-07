@@ -27,6 +27,18 @@ app.get('/user-intro', (req, res)=>{
     res.json(userIntro);
 
 })
+
+
+app.get(`/user/:userId` , ( req, res )=>{
+    const { userId } = req.params
+    const userOne = users.find( (user)=>user.id === Number(userId))
+    res.json({userOne});
+})
+
+
+
+
+
 app.listen(5000, ()=>{
     console.log('The app is listening at http://localhost:5000');
     
